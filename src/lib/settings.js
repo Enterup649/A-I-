@@ -173,6 +173,7 @@ class Settings {
 			showRetryToast: false,
 			showSideButtons: true,
 			showAnnotations: false,
+			anthropicApiKey: "",
 		};
 		this.value = structuredClone(this.#defaultSettings);
 	}
