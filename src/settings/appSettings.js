@@ -178,6 +178,13 @@ export default function otherSettings() {
 				return [id, encoding.label];
 			}),
 		},
+		{
+			key: "anthropicApiKey",
+			text: strings["anthropic api key"],
+			value: values.anthropicApiKey,
+			prompt: strings["anthropic api key"],
+			promptType: "text",
+		},
 	];
 
 	return settingsPage(title, items, callback);
